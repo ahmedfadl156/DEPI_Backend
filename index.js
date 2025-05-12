@@ -40,7 +40,8 @@ app.get('/show', (req,res)=> {
     res.send("Show All Products")
 })
 
-app.listen(3000, ()=> {
-    console.log("Server Is Running")
-})
+// app.listen(3000, ()=> {
+//     console.log("Server Is Running")
+// })
 
+module.exports = app;
